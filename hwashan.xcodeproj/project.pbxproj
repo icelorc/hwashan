@@ -108,10 +108,10 @@
 		9FBA29D317E2B51100D428F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9FBA29D517E2B51100D428F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9FBA29D717E2B51100D428F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9FBA29DB17E2B51100D428F1 /* haircutCollect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "haircutCollect-Info.plist"; sourceTree = "<group>"; };
+		9FBA29DB17E2B51100D428F1 /* hwashan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hwashan-Info.plist"; sourceTree = "<group>"; };
 		9FBA29DD17E2B51100D428F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FBA29DF17E2B51100D428F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9FBA29E117E2B51100D428F1 /* haircutCollect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "haircutCollect-Prefix.pch"; sourceTree = "<group>"; };
+		9FBA29E117E2B51100D428F1 /* hwashan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hwashan-Prefix.pch"; sourceTree = "<group>"; };
 		9FBA29E217E2B51100D428F1 /* fontechAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontechAppDelegate.h; sourceTree = "<group>"; };
 		9FBA29E317E2B51100D428F1 /* fontechAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontechAppDelegate.m; sourceTree = "<group>"; };
 		9FBA29E617E2B51100D428F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		9FBA29EE17E2B51100D428F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9FBA29F417E2B51100D428F1 /* haircutCollectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haircutCollectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FBA29F517E2B51100D428F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9FBA29FD17E2B51100D428F1 /* haircutCollectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "haircutCollectTests-Info.plist"; sourceTree = "<group>"; };
+		9FBA29FD17E2B51100D428F1 /* hwashanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hwashanTests-Info.plist"; sourceTree = "<group>"; };
 		9FBA29FF17E2B51100D428F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FBA2A0117E2B51100D428F1 /* haircutCollectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = haircutCollectTests.m; sourceTree = "<group>"; };
 		9FBA2A0B17E2B9E200D428F1 /* fontechServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontechServiceViewController.h; sourceTree = "<group>"; };
@@ -284,10 +284,10 @@
 		9FBA29DA17E2B51100D428F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9FBA29DB17E2B51100D428F1 /* haircutCollect-Info.plist */,
+				9FBA29DB17E2B51100D428F1 /* hwashan-Info.plist */,
 				9FBA29DC17E2B51100D428F1 /* InfoPlist.strings */,
 				9FBA29DF17E2B51100D428F1 /* main.m */,
-				9FBA29E117E2B51100D428F1 /* haircutCollect-Prefix.pch */,
+				9FBA29E117E2B51100D428F1 /* hwashan-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,7 +304,7 @@
 		9FBA29FC17E2B51100D428F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9FBA29FD17E2B51100D428F1 /* haircutCollectTests-Info.plist */,
+				9FBA29FD17E2B51100D428F1 /* hwashanTests-Info.plist */,
 				9FBA29FE17E2B51100D428F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -337,9 +337,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FBA29CF17E2B51100D428F1 /* haircutCollect */ = {
+		9FBA29CF17E2B51100D428F1 /* hwashan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FBA2A0517E2B51100D428F1 /* Build configuration list for PBXNativeTarget "haircutCollect" */;
+			buildConfigurationList = 9FBA2A0517E2B51100D428F1 /* Build configuration list for PBXNativeTarget "hwashan" */;
 			buildPhases = (
 				9FBA29CC17E2B51100D428F1 /* Sources */,
 				9FBA29CD17E2B51100D428F1 /* Frameworks */,
@@ -349,14 +349,14 @@
 			);
 			dependencies = (
 			);
-			name = haircutCollect;
+			name = hwashan;
 			productName = haircutCollect;
 			productReference = 9FBA29D017E2B51100D428F1 /* haircutCollect.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FBA29F317E2B51100D428F1 /* haircutCollectTests */ = {
+		9FBA29F317E2B51100D428F1 /* hwashanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FBA2A0817E2B51100D428F1 /* Build configuration list for PBXNativeTarget "haircutCollectTests" */;
+			buildConfigurationList = 9FBA2A0817E2B51100D428F1 /* Build configuration list for PBXNativeTarget "hwashanTests" */;
 			buildPhases = (
 				9FBA29F017E2B51100D428F1 /* Sources */,
 				9FBA29F117E2B51100D428F1 /* Frameworks */,
@@ -367,7 +367,7 @@
 			dependencies = (
 				9FBA29FA17E2B51100D428F1 /* PBXTargetDependency */,
 			);
-			name = haircutCollectTests;
+			name = hwashanTests;
 			productName = haircutCollectTests;
 			productReference = 9FBA29F417E2B51100D428F1 /* haircutCollectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -390,7 +390,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FBA29CB17E2B51100D428F1 /* Build configuration list for PBXProject "haircutCollect" */;
+			buildConfigurationList = 9FBA29CB17E2B51100D428F1 /* Build configuration list for PBXProject "hwashan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -403,8 +403,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FBA29CF17E2B51100D428F1 /* haircutCollect */,
-				9FBA29F317E2B51100D428F1 /* haircutCollectTests */,
+				9FBA29CF17E2B51100D428F1 /* hwashan */,
+				9FBA29F317E2B51100D428F1 /* hwashanTests */,
 			);
 		};
 /* End PBXProject section */
@@ -494,7 +494,7 @@
 /* Begin PBXTargetDependency section */
 		9FBA29FA17E2B51100D428F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FBA29CF17E2B51100D428F1 /* haircutCollect */;
+			target = 9FBA29CF17E2B51100D428F1 /* hwashan */;
 			targetProxy = 9FBA29F917E2B51100D428F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -603,13 +603,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "haircutCollect/haircutCollect-Prefix.pch";
-				INFOPLIST_FILE = "haircutCollect/haircutCollect-Info.plist";
+				GCC_PREFIX_HEADER = "haircutCollect/hwashan-Prefix.pch";
+				INFOPLIST_FILE = "haircutCollect/hwashan-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/icelorc/Documents/iOS/haircutCollect/TestFlightSDK2,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = hwashan;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -623,13 +623,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "haircutCollect/haircutCollect-Prefix.pch";
-				INFOPLIST_FILE = "haircutCollect/haircutCollect-Info.plist";
+				GCC_PREFIX_HEADER = "haircutCollect/hwashan-Prefix.pch";
+				INFOPLIST_FILE = "haircutCollect/hwashan-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/icelorc/Documents/iOS/haircutCollect/TestFlightSDK2,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = hwashan;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -650,8 +650,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "haircutCollectTests/haircutCollectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "haircutCollectTests/hwashanTests-Info.plist";
+				PRODUCT_NAME = hwashanTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -668,8 +668,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "haircutCollect/haircutCollect-Prefix.pch";
-				INFOPLIST_FILE = "haircutCollectTests/haircutCollectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "haircutCollectTests/hwashanTests-Info.plist";
+				PRODUCT_NAME = hwashanTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -678,7 +678,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FBA29CB17E2B51100D428F1 /* Build configuration list for PBXProject "haircutCollect" */ = {
+		9FBA29CB17E2B51100D428F1 /* Build configuration list for PBXProject "hwashan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FBA2A0317E2B51100D428F1 /* Debug */,
@@ -687,7 +687,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FBA2A0517E2B51100D428F1 /* Build configuration list for PBXNativeTarget "haircutCollect" */ = {
+		9FBA2A0517E2B51100D428F1 /* Build configuration list for PBXNativeTarget "hwashan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FBA2A0617E2B51100D428F1 /* Debug */,
@@ -696,7 +696,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FBA2A0817E2B51100D428F1 /* Build configuration list for PBXNativeTarget "haircutCollectTests" */ = {
+		9FBA2A0817E2B51100D428F1 /* Build configuration list for PBXNativeTarget "hwashanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FBA2A0917E2B51100D428F1 /* Debug */,
