@@ -217,8 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				9FD7ABC61807EB6F00030A33 /* TestFlightSDK2 */,
-				9FBA29D917E2B51100D428F1 /* haircutCollect */,
-				9FBA29FB17E2B51100D428F1 /* haircutCollectTests */,
+				9FBA29D917E2B51100D428F1 /* hwashan */,
+				9FBA29FB17E2B51100D428F1 /* hwashanTests */,
 				9FBA29D217E2B51100D428F1 /* Frameworks */,
 				9FBA29D117E2B51100D428F1 /* Products */,
 			);
@@ -245,7 +245,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9FBA29D917E2B51100D428F1 /* haircutCollect */ = {
+		9FBA29D917E2B51100D428F1 /* hwashan */ = {
 			isa = PBXGroup;
 			children = (
 				9FBD661017F13CD100CAF5BE /* Views */,
@@ -278,6 +278,7 @@
 				9FBA29EE17E2B51100D428F1 /* Images.xcassets */,
 				9FBA29DA17E2B51100D428F1 /* Supporting Files */,
 			);
+			name = hwashan;
 			path = haircutCollect;
 			sourceTree = "<group>";
 		};
@@ -292,12 +293,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9FBA29FB17E2B51100D428F1 /* haircutCollectTests */ = {
+		9FBA29FB17E2B51100D428F1 /* hwashanTests */ = {
 			isa = PBXGroup;
 			children = (
 				9FBA2A0117E2B51100D428F1 /* haircutCollectTests.m */,
 				9FBA29FC17E2B51100D428F1 /* Supporting Files */,
 			);
+			name = hwashanTests;
 			path = haircutCollectTests;
 			sourceTree = "<group>";
 		};
